@@ -1,0 +1,56 @@
+{
+    "adult": false,
+    "backdrop_path": "/qJu5OXe8toQq4cjZ7h6zkDXRtRK.jpg",
+    "belongs_to_collection": null,
+    "budget": 0,
+    "genres": [
+        {
+            "id": 18,
+            "name": "Drama"
+        }
+    ],
+    "homepage": "https://www.netflix.com/title/81346062",
+    "id": 971647,
+    "imdb_id": "tt14766956",
+    "original_language": "tr",
+    "original_title": "Yolun Açik Olsun",
+    "overview": "An ex-army captain travels to Dalyan to stop his friend's beloved from marrying another man, but grief and trauma from a combat tragedy mar his journey.",
+    "popularity": 98.256,
+    "poster_path": "/jfDxr9uDIOK5QZDsO76Y7ATs0kF.jpg",
+    "production_companies": [
+        {
+            "id": 137006,
+            "logo_path": null,
+            "name": "Lanistar Media",
+            "origin_country": ""
+        },
+        {
+            "id": 94701,
+            "logo_path": null,
+            "name": "Same Films",
+            "origin_country": ""
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "TR",
+            "name": "Turkey"
+        }
+    ],
+    "release_date": "2022-05-23",
+    "revenue": 0,
+    "runtime": 119,
+    "spoken_languages": [
+        {
+            "english_name": "Turkish",
+            "iso_639_1": "tr",
+            "name": "Türkçe"
+        }
+    ],
+    "status": "Released",
+    "tagline": "",
+    "title": "Godspeed",
+    "video": false,
+    "vote_average": 7.0,
+    "vote_count": 5
+}

@@ -1,0 +1,429 @@
+{
+    "page": 1,
+    "results": [
+        {
+            "genre_ids": [
+                35,
+                18,
+                53
+            ],
+            "original_language": "en",
+            "original_title": "Emergency",
+            "poster_path": "/jAvMlX3n9Fme3k1yFIVyqbLv2Nv.jpg",
+            "video": false,
+            "vote_average": 4.5,
+            "vote_count": 2,
+            "overview": "Ready for a night of legendary partying, three college students must weigh the pros and cons of calling the police when faced with an unexpected situation.",
+            "release_date": "2022-05-20",
+            "title": "Emergency",
+            "id": 819309,
+            "adult": false,
+            "backdrop_path": "/oC7tcPHUDxpUojzxgMb8D7Uu4aJ.jpg",
+            "popularity": 13.82,
+            "media_type": "movie"
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/odJ4hx6g6vBt4lBWKFD1tI8WS4x.jpg",
+            "genre_ids": [
+                28,
+                18
+            ],
+            "id": 361743,
+            "original_language": "en",
+            "original_title": "Top Gun: Maverick",
+            "overview": "After more than thirty years of service as one of the Navy's top aviators, Pete Mitchell is where he belongs, pushing the envelope as a courageous test pilot and dodging the advancement in rank that would ground him.",
+            "poster_path": "/wxP2Mzv9CdjOK6t4dNnFGqIQl0V.jpg",
+            "release_date": "2022-05-24",
+            "title": "Top Gun: Maverick",
+            "video": false,
+            "vote_average": 8.3,
+            "vote_count": 208,
+            "popularity": 1287.608,
+            "media_type": "movie"
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/egoyMDLqCxzjnSrWOz50uLlJWmD.jpg",
+            "genre_ids": [
+                28,
+                14,
+                35,
+                10751,
+                12,
+                878
+            ],
+            "title": "Sonic the Hedgehog 2",
+            "original_language": "en",
+            "original_title": "Sonic the Hedgehog 2",
+            "poster_path": "/6DrHO1jr3qVrViUO6s6kFiAGM7.jpg",
+            "video": false,
+            "vote_average": 7.8,
+            "overview": "After settling in Green Hills, Sonic is eager to prove he has what it takes to be a true hero. His test comes when Dr. Robotnik returns, this time with a new partner, Knuckles, in search for an emerald that has the power to destroy civilizations. Sonic teams up with his own sidekick, Tails, and together they embark on a globe-trotting journey to find the emerald before it falls into the wrong hands.",
+            "release_date": "2022-03-30",
+            "vote_count": 1667,
+            "id": 675353,
+            "popularity": 5251.473,
+            "media_type": "movie"
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/qK7Ssnrfvrt65F66A1thvehfQg2.jpg",
+            "genre_ids": [
+                16,
+                10751,
+                35,
+                12,
+                9648
+            ],
+            "id": 420821,
+            "original_language": "en",
+            "original_title": "Chip 'n Dale: Rescue Rangers",
+            "overview": "Decades after their successful television series was canceled, Chip and Dale must repair their broken friendship and take on their Rescue Rangers detective personas once again when a former cast mate mysteriously disappears.",
+            "poster_path": "/7UGmn8TyWPPzkjhLUW58cOUHjPS.jpg",
+            "release_date": "2022-05-20",
+            "title": "Chip 'n Dale: Rescue Rangers",
+            "video": false,
+            "vote_average": 7.1,
+            "vote_count": 302,
+            "popularity": 926.38,
+            "media_type": "movie"
+        },
+        {
+            "poster_path": "/74xTEgt7R36Fpooo50r9T25onhq.jpg",
+            "video": false,
+            "vote_average": 7.8,
+            "overview": "In his second year of fighting crime, Batman uncovers corruption in Gotham City that connects to his own family while facing a serial killer known as the Riddler.",
+            "release_date": "2022-03-01",
+            "title": "The Batman",
+            "adult": false,
+            "backdrop_path": "/xHrp2pq73oi9D64xigPjWW1wcz1.jpg",
+            "vote_count": 4842,
+            "genre_ids": [
+                80,
+                9648,
+                53
+            ],
+            "id": 414906,
+            "original_language": "en",
+            "original_title": "The Batman",
+            "popularity": 2670.982,
+            "media_type": "movie"
+        },
+        {
+            "vote_average": 6.4,
+            "overview": "Dangerously ill with a rare blood disorder, and determined to save others suffering his same fate, Dr. Michael Morbius attempts a desperate gamble. What at first appears to be a radical success soon reveals itself to be a remedy potentially worse than the disease.",
+            "release_date": "2022-03-30",
+            "adult": false,
+            "backdrop_path": "/gG9fTyDL03fiKnOpf2tr01sncnt.jpg",
+            "vote_count": 1197,
+            "genre_ids": [
+                28,
+                878,
+                14
+            ],
+            "id": 526896,
+            "original_language": "en",
+            "original_title": "Morbius",
+            "poster_path": "/6JjfSchsU6daXk2AKX8EEBjO3Fm.jpg",
+            "title": "Morbius",
+            "video": false,
+            "popularity": 7124.96,
+            "media_type": "movie"
+        },
+        {
+            "overview": "An aging Chinese immigrant is swept up in an insane adventure, where she alone can save what's important to her by connecting with the lives she could have led in other universes.",
+            "id": 545611,
+            "adult": false,
+            "backdrop_path": "/iN3vKCuOGRdZ9Cn3yRGCyMlaiST.jpg",
+            "vote_count": 377,
+            "genre_ids": [
+                28,
+                12,
+                878,
+                35
+            ],
+            "release_date": "2022-03-24",
+            "original_language": "en",
+            "original_title": "Everything Everywhere All at Once",
+            "poster_path": "/w3LxiVYdWWRvEVdn5RYq6jIqkb1.jpg",
+            "title": "Everything Everywhere All at Once",
+            "video": false,
+            "vote_average": 8.5,
+            "popularity": 274.19,
+            "media_type": "movie"
+        },
+        {
+            "video": false,
+            "title": "Fireheart",
+            "id": 778810,
+            "overview": "The film explores the world of firefighters in 1920s New York City and tells the story of a 16-year-old girl who will have to become a hero in order to save her city.",
+            "release_date": "2022-02-02",
+            "adult": false,
+            "backdrop_path": "/pFwvHAFyPEqtvJEoutPuobLwrNj.jpg",
+            "genre_ids": [
+                16,
+                35,
+                10751
+            ],
+            "vote_count": 34,
+            "original_language": "en",
+            "original_title": "Fireheart",
+            "poster_path": "/hepwOZWJNUmLzB68gKYEdEJAaD3.jpg",
+            "vote_average": 6.6,
+            "popularity": 41.661,
+            "media_type": "movie"
+        },
+        {
+            "video": false,
+            "vote_average": 7.3,
+            "overview": "Alex, an assassin-for-hire, finds that he's become a target after he refuses to complete a job for a dangerous criminal organization. With the crime syndicate and FBI in hot pursuit, Alex has the skills to stay ahead, except for one thing: he is struggling with severe memory loss, affecting his every move. Alex must question his every action and whom he can ultimately trust.",
+            "release_date": "2022-04-28",
+            "adult": false,
+            "backdrop_path": "/kiH3KPWi7BaRMvdAigcwrUFViHl.jpg",
+            "vote_count": 132,
+            "genre_ids": [
+                28,
+                53,
+                80
+            ],
+            "title": "Memory",
+            "original_language": "en",
+            "original_title": "Memory",
+            "poster_path": "/4Q1n3TwieoULnuaztu9aFjqHDTI.jpg",
+            "id": 818397,
+            "popularity": 888.502,
+            "media_type": "movie"
+        },
+        {
+            "original_language": "en",
+            "original_title": "Doctor Strange in the Multiverse of Madness",
+            "poster_path": "/odQ902qHzB4B7ltLrIzDa6hCl9U.jpg",
+            "video": false,
+            "vote_average": 7.4,
+            "overview": "Doctor Strange, with the help of mystical allies both old and new, traverses the mind-bending and dangerous alternate realities of the Multiverse to confront a mysterious new adversary.",
+            "release_date": "2022-05-04",
+            "id": 453395,
+            "vote_count": 1912,
+            "adult": false,
+            "backdrop_path": "/AdyJH8kDm8xT8IKTlgpEC15ny4u.jpg",
+            "title": "Doctor Strange in the Multiverse of Madness",
+            "genre_ids": [
+                14,
+                28,
+                12
+            ],
+            "popularity": 2607.831,
+            "media_type": "movie"
+        },
+        {
+            "release_date": "2022-04-07",
+            "adult": false,
+            "backdrop_path": "/cqnVuxXe6vA7wfNWubak3x36DKJ.jpg",
+            "id": 639933,
+            "genre_ids": [
+                28,
+                12,
+                14,
+                53
+            ],
+            "original_language": "en",
+            "original_title": "The Northman",
+            "poster_path": "/zhLKlUaF1SEpO58ppHIAyENkwgw.jpg",
+            "vote_count": 1159,
+            "video": false,
+            "vote_average": 7.4,
+            "title": "The Northman",
+            "overview": "Prince Amleth is on the verge of becoming a man when his father is brutally murdered by his uncle, who kidnaps the boy's mother. Two decades later, Amleth is now a Viking who's on a mission to save his mother, kill his uncle and avenge his father.",
+            "popularity": 4519.044,
+            "media_type": "movie"
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/iQFcwSGbZXMkeyKrxbPnwnRo5fl.jpg",
+            "genre_ids": [
+                28,
+                12,
+                878
+            ],
+            "vote_count": 13055,
+            "original_language": "en",
+            "original_title": "Spider-Man: No Way Home",
+            "poster_path": "/1g0dhYtq4irTY1GPXvft6k4YLjm.jpg",
+            "id": 634649,
+            "video": false,
+            "vote_average": 8.1,
+            "title": "Spider-Man: No Way Home",
+            "overview": "Peter Parker is unmasked and no longer able to separate his normal life from the high-stakes of being a super-hero. When he asks for help from Doctor Strange the stakes become even more dangerous, forcing him to discover what it truly means to be Spider-Man.",
+            "release_date": "2021-12-15",
+            "popularity": 2680.422,
+            "media_type": "movie"
+        },
+        {
+            "overview": "After his retirement is interrupted by Gorr the God Butcher, a galactic killer who seeks the extinction of the gods, Thor enlists the help of King Valkyrie, Korg, and ex-girlfriend Jane Foster, who now inexplicably wields Mjolnir as the Mighty Thor. Together, they embark upon a harrowing cosmic adventure to uncover the mystery of the God Butcher’s vengeance and stop him before it’s too late.",
+            "release_date": "2022-07-06",
+            "adult": false,
+            "backdrop_path": "/bcpATvKQmSgCbwxONs9PPQrer3A.jpg",
+            "vote_count": 0,
+            "genre_ids": [
+                28,
+                12,
+                14
+            ],
+            "id": 616037,
+            "original_language": "en",
+            "original_title": "Thor: Love and Thunder",
+            "poster_path": "/2MiG2aG2OrOgnPpbv8xnuS984xQ.jpg",
+            "title": "Thor: Love and Thunder",
+            "video": false,
+            "vote_average": 0.0,
+            "popularity": 308.434,
+            "media_type": "movie"
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/kB1Qrsg189eDz4Ej3ABXtLudClq.jpg",
+            "genre_ids": [
+                35
+            ],
+            "title": "The Valet",
+            "original_language": "en",
+            "original_title": "The Valet",
+            "poster_path": "/q7FmdJHKMLIC4XgWfcFRIu2iVdL.jpg",
+            "vote_count": 93,
+            "video": false,
+            "vote_average": 8.0,
+            "id": 810171,
+            "overview": "World famous movie star Olivia faces a PR disaster when a paparazzi snaps a photo of her with her married lover, Vincent. The hard-working valet Antonio accidentally appears in the same photo and is enlisted to pose as Olivia’s new boyfriend as a cover-up. This ruse with Olivia thrusts Antonio into the spotlight and unexpected chaos.",
+            "release_date": "2022-05-11",
+            "popularity": 517.107,
+            "media_type": "movie"
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/A3bsT0m1um6tvcmlIGxBwx9eAxn.jpg",
+            "genre_ids": [
+                28,
+                12,
+                35,
+                10749
+            ],
+            "original_language": "en",
+            "original_title": "The Lost City",
+            "id": 752623,
+            "vote_count": 806,
+            "video": false,
+            "vote_average": 6.8,
+            "title": "The Lost City",
+            "overview": "A reclusive romance novelist was sure nothing could be worse than getting stuck on a book tour with her cover model until a kidnapping attempt sweeps them both into a cutthroat jungle adventure, proving life can be so much stranger, and more romantic, than any of her paperback fictions.",
+            "release_date": "2022-03-24",
+            "poster_path": "/neMZH82Stu91d3iqvLdNQfqPPyl.jpg",
+            "popularity": 6605.348,
+            "media_type": "movie"
+        },
+        {
+            "genre_ids": [
+                28,
+                18,
+                12
+            ],
+            "original_language": "en",
+            "original_title": "Top Gun",
+            "poster_path": "/xUuHj3CgmZQ9P2cMaqQs4J0d4Zc.jpg",
+            "video": false,
+            "vote_average": 7.0,
+            "vote_count": 5554,
+            "overview": "For Lieutenant Pete 'Maverick' Mitchell and his friend and co-pilot Nick 'Goose' Bradshaw, being accepted into an elite training school for fighter pilots is a dream come true. But a tragedy, as well as personal demons, will threaten Pete's dreams of becoming an ace pilot.",
+            "release_date": "1986-05-16",
+            "title": "Top Gun",
+            "id": 744,
+            "adult": false,
+            "backdrop_path": "/jILeJ60zPpIjjJHGSmIeY4eO30t.jpg",
+            "popularity": 757.444,
+            "media_type": "movie"
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/lQxZLeWNdZINBzyzdPr5NbRHL8m.jpg",
+            "genre_ids": [
+                28,
+                12,
+                14
+            ],
+            "title": "Fantastic Beasts: The Secrets of Dumbledore",
+            "original_language": "en",
+            "original_title": "Fantastic Beasts: The Secrets of Dumbledore",
+            "poster_path": "/jrgifaYeUtTnaH7NF5Drkgjg2MB.jpg",
+            "video": false,
+            "vote_average": 6.7,
+            "overview": "Professor Albus Dumbledore knows the powerful, dark wizard Gellert Grindelwald is moving to seize control of the wizarding world. Unable to stop him alone, he entrusts magizoologist Newt Scamander to lead an intrepid team of wizards and witches. They soon encounter an array of old and new beasts as they clash with Grindelwald's growing legion of followers.",
+            "release_date": "2022-04-06",
+            "vote_count": 1119,
+            "id": 338953,
+            "popularity": 5628.384,
+            "media_type": "movie"
+        },
+        {
+            "original_language": "en",
+            "original_title": "Teen Titans Go! & DC Super Hero Girls: Mayhem in the Multiverse",
+            "id": 913205,
+            "video": false,
+            "vote_average": 7.1,
+            "title": "Teen Titans Go! & DC Super Hero Girls: Mayhem in the Multiverse",
+            "overview": "With the help of an ancient Kryptonian power, Lex Luthor unites the world’s Super-Villains to capture all of Earth's Super Heroes, until…only the DC Super Hero Girls are left to stop the Legion of Doom. Our heroes must cross dimensions to rescue their fellow Super Heroes from the Phantom Zone, but a fortuitous wrong turn leads them to Titans Tower – where they find much-needed allies in the Teen Titans!",
+            "release_date": "2022-05-23",
+            "adult": false,
+            "backdrop_path": "/dtb3MFpp0ziw3RJeqLdPPJJ3DzE.jpg",
+            "vote_count": 14,
+            "genre_ids": [
+                16,
+                28,
+                35
+            ],
+            "poster_path": "/3Hnhf1FqVGnh20hKlHbiRvHhB5b.jpg",
+            "popularity": 132.702,
+            "media_type": "movie"
+        },
+        {
+            "vote_average": 7.2,
+            "id": 335787,
+            "overview": "A young street-smart, Nathan Drake and his wisecracking partner Victor “Sully” Sullivan embark on a dangerous pursuit of “the greatest treasure never found” while also tracking clues that may lead to Nathan’s long-lost brother.",
+            "release_date": "2022-02-10",
+            "title": "Uncharted",
+            "adult": false,
+            "backdrop_path": "/aEGiJJP91HsKVTEPy1HhmN0wRLm.jpg",
+            "genre_ids": [
+                28,
+                12
+            ],
+            "original_language": "en",
+            "original_title": "Uncharted",
+            "poster_path": "/tlZpSxYuBRoVJBOpUrPdQe9FmFq.jpg",
+            "vote_count": 2141,
+            "video": false,
+            "popularity": 2725.041,
+            "media_type": "movie"
+        },
+        {
+            "original_language": "tr",
+            "original_title": "Yolun Açik Olsun",
+            "id": 971647,
+            "video": false,
+            "vote_average": 7.0,
+            "title": "Godspeed",
+            "overview": "An ex-army captain travels to Dalyan to stop his friend's beloved from marrying another man, but grief and trauma from a combat tragedy mar his journey.",
+            "release_date": "2022-05-23",
+            "adult": false,
+            "backdrop_path": "/qJu5OXe8toQq4cjZ7h6zkDXRtRK.jpg",
+            "vote_count": 5,
+            "genre_ids": [
+                18
+            ],
+            "poster_path": "/jfDxr9uDIOK5QZDsO76Y7ATs0kF.jpg",
+            "popularity": 98.256,
+            "media_type": "movie"
+        }
+    ],
+    "total_pages": 1000,
+    "total_results": 20000
+}

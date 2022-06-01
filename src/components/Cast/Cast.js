@@ -1,23 +1,22 @@
 import CastRender from "components/CastRender";
 import Loader from "components/Loader";
 import { useEffect, useState } from "react";
-import { useParams } from "react-router-dom"
+import { useParams, useLocation } from "react-router-dom"
 import themoviedbAPI from "services/themoviedbAPI/themoviedbAPI";
 import { messenger } from "utils/messenger";
 
 export default function Cast() {
     const { movieId } = useParams();
-    // console.log("Cast movieId", movieId);
     const [status, setStatus] = useState('idle');
     const [error, setError] = useState(null);
     const [actors, setActors] = useState();
+
     useEffect(() => {
         setStatus('pending');
         try {
             themoviedbAPI
                 .fetchFilmCredits(movieId)
                 .then(({ cast }) => {
-                    console.log("Cast", cast);
                     setActors(mapper(cast));
                     setStatus('resolve');
                 })
@@ -26,7 +25,7 @@ export default function Cast() {
             setError(error);
             setStatus('reject')
         }
-    }, [])
+    }, [movieId])
     return (
         <>
             {status === 'pending' && <Loader />}

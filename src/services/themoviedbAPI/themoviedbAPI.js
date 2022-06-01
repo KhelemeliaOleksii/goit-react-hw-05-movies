@@ -20,20 +20,7 @@ export const fetchByName = (value, page = 1, language = DEFAULT_LANGUAGE) => {
 }
 export const fetchFilmDetails = (movieId, language = DEFAULT_LANGUAGE) => {
     const url = `${BASE_URL}/movie/${movieId}?api_key=${API_KEY}&language=${language}`;
-    // throw new Error("error in fetch")
-    return http.get(url)
-        .then((results) => {
-            console.log("results", results);
-            return results
-        })
-    // .catch(errorResponse => {
-    //     console.log(errorResponse);
-    //     throw new Error('Error in fetch');
-    // });
-    // } catch (error) {
-    //     console.log("error in fetch", error);
-    //     throw new Error("in fetch")
-    // }
+    return http.get(url);
 }
 export const fetchFilmReviews = (movieId, language = DEFAULT_LANGUAGE) => {
     const url = `${BASE_URL}/movie/${movieId}/reviews?api_key=${API_KEY}&language=${language}`;

@@ -1,9 +1,10 @@
 import { Link, useLocation } from "react-router-dom"
 import { messenger } from "utils/messenger";
+import PropTypes from "prop-types"
 
-export default function FilmGallary({ movies }) {
+export default function MovieGallary({ movies }) {
     const location = useLocation();
-    console.log("FilmGallary.location:", location);
+
     if (movies.length === 0) {
         messenger.alertMessage('No film found');
         return;
@@ -18,7 +19,6 @@ export default function FilmGallary({ movies }) {
                             state={{
                                 from: {
                                     location,
-                                    label: 'Home'
                                 },
                             }}
                         >{title}</Link>
@@ -26,5 +26,14 @@ export default function FilmGallary({ movies }) {
                 )
             })}
         </ul >
+    )
+}
+
+MovieGallary.propTypes = {
+    movies: PropTypes.arrayOf(
+        PropTypes.shape({
+            id: PropTypes.number.isRequired,
+            title: PropTypes.string.isRequired,
+        }).isRequired
     )
 }

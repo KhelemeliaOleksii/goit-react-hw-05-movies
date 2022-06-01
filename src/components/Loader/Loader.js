@@ -5,4 +5,5 @@ const Loader = () => {
         <RotatingLines width="100" />
     )
 }
+
 export default Loader;

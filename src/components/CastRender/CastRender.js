@@ -1,6 +1,6 @@
 import { messenger } from "utils/messenger"
 import defaultUserImage from 'default-user-image.png'
-
+import PropTypes from 'prop-types'
 const IMG_CONFIG = {
     base_url: 'https://image.tmdb.org/t/p/',
     size: 'w500'
@@ -24,4 +24,15 @@ export default function CastRender({ cast }) {
                 </li>)}
         </ul>
     )
+}
+
+CastRender.propTypes = {
+    cast: PropTypes.arrayOf(
+        PropTypes.shape({
+            id: PropTypes.number.isRequired,
+            imgPath: PropTypes.string,
+            name: PropTypes.string.isRequired,
+            character: PropTypes.string.isRequired
+        }).isRequired
+    ).isRequired
 }

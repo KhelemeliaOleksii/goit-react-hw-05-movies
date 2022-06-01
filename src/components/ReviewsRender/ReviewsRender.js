@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types'
+
 export default function ReviewsRender({ reviews }) {
     if (reviews.length === 0) {
         return <div>We don't have any review for this movie</div>
@@ -19,4 +21,14 @@ export default function ReviewsRender({ reviews }) {
             }
         </ul>
     )
+}
+
+ReviewsRender.propTypes = {
+    reviews: PropTypes.arrayOf(
+        PropTypes.shape({
+            author: PropTypes.string.isRequired,
+            content: PropTypes.string.isRequired,
+            created_at: PropTypes.string.isRequired,
+        }).isRequired
+    ).isRequired
 }

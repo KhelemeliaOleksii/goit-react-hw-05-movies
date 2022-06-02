@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/home-page.ff84d673.chunk.css","mappings":"AAAA,iCAGI,UAAc,CADd,cAAe,CADf,eAGJ","sources":["components/PageHeading/PageHeading.module.css"],"sourcesContent":[".page-heading {\n    font-weight: 500;\n    font-size: 25px;\n    color: #000000;\n}"],"names":[],"sourceRoot":""}

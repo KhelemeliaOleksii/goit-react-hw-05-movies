@@ -1,0 +1,11 @@
+.card__info--general {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.img__wrapper {
+    width: 500px;
+    margin-right: 20px;
+
+}

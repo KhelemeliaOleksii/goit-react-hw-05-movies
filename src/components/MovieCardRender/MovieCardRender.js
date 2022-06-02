@@ -1,4 +1,4 @@
-import { NavLink, Outlet, useLocation } from 'react-router-dom'
+import { Link, Outlet } from 'react-router-dom'
 import PropTypes from 'prop-types'
 import styles from './MovieCardRender.module.css'
 import defaultMovieImage from 'default-movie-image.jpg'
@@ -7,6 +7,17 @@ const IMG_CONFIG = {
     base_url: 'https://image.tmdb.org/t/p/',
     size: 'w500'
 }
+
+/* function MovieCardRender
+do: -render a movie card
+    <> backdrop
+    <> title
+    <> score
+    <> overview
+    <> genres
+    <> link on cast
+    <> link on reviews
+ */
 export default function MovieCardRender({ movie, fromLocation }) {
     const { id, backdrop_path, title, release_date, popularity, overview, genres } = movie;
     const { base_url, size } = IMG_CONFIG;
@@ -16,7 +27,6 @@ export default function MovieCardRender({ movie, fromLocation }) {
         <>
             <div className={styles['card__info--general']}>
                 <div className={styles['img__wrapper']}>
-                    {/* <img src={imgPath} alt={title} /> */}
                     {!backdrop_path
                         ? <img src={defaultMovieImage} alt={title} />
                         : <img src={`${imgPath}`} alt={title} />
@@ -40,18 +50,18 @@ export default function MovieCardRender({ movie, fromLocation }) {
                 <h5>Additional information</h5>
                 <ul>
                     <li>
-                        <NavLink
+                        <Link
                             to={`/movies/${id}/cast`}
                             state={{
                                 from: fromLocation
-                            }}>Cast</NavLink>
+                            }}>Cast</Link>
                     </li>
                     <li>
-                        <NavLink
+                        <Link
                             to={`/movies/${id}/reviews`}
                             state={{
                                 from: fromLocation
-                            }}>Reviews</NavLink>
+                            }}>Reviews</Link>
                     </li>
                 </ul>
             </div>
@@ -81,13 +91,21 @@ MovieCardRender.propTypes = {
     }).isRequired
 }
 
+/* function getRelizeYear
+do: extrude a year from a full date */
 function getRelizeYear(date) {
     const today = new Date(date);
     return today.getFullYear();
 }
+/* function getUserScore
+do: math round an income data
+ */
 function getUserScore(data) {
     return Math.round(data);
 }
+
+/* function getGenresNames
+do: create an array of genre names */
 function getGenresNames(data) {
     return data.map(({ name }) => name).join(', ');
 }

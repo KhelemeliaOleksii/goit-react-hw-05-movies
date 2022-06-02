@@ -1,5 +1,13 @@
 import PropTypes from 'prop-types'
 
+/* function ReviewsRender
+do: render a reviews list of a movie
+    - if reviews available
+        <>author
+        <>review
+        <>date
+    <-> "We don't have any review for this movie"
+  */
 export default function ReviewsRender({ reviews }) {
     if (reviews.length === 0) {
         return <div>We don't have any review for this movie</div>

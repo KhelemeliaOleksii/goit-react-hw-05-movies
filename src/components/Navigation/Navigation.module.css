@@ -1,0 +1,16 @@
+.link {
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.active {
+    composes: link;
+    color: red;
+}
+
+.nav {
+    padding: 10px 0;
+}

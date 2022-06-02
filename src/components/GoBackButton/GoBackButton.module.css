@@ -1,15 +1,46 @@
-.button__label {
-    position: relative;
+.button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 4px;
+    align-items: center;
 }
 
-.button__label::after {
+.button__label {
+    color: #000000;
+    font-size: 14px;
+}
+
+.button__arrow {
+    position: relative;
+    display: block;
+    width: 15px;
+    height: 15px;
+    /* border: solid 1px red; */
+    margin-right: 5px;
+}
+
+.button__arrow::after {
     content: '';
-    left: 0;
-    top: 0;
     position: absolute;
-    width: 10px;
-    height: 10px;
-    border-bottom: solid 1px #000000;
-    border-left: solid 1px #000000;
-    transform: rotate(45deg);
+    left: 0;
+    top: 45%;
+    width: 50%;
+    height: 50%;
+    border-bottom: solid 2px #000000;
+    border-left: solid 2px #000000;
+    transform: rotate(45deg) translateY(-50%);
+}
+
+.button__arrow::before {
+    content: '';
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    width: 100%;
+    /* height: 10px; */
+    border-bottom: solid 3px #000000;
+    transform: translateY(-50%);
+    border-radius: 1px 0px 0px 1px;
+
 }

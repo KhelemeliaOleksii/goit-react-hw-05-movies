@@ -75,7 +75,7 @@ export default function MovieDetailsPage() {
                     <GoBackButton onClickHandler={GoBackHandler} />
                     <MovieCardRender movie={movie} fromLocation={fromLocation} />
                 </>}
-            {status === 'reject' && messenger.errorMessage('Error')}
+            {status === 'reject' && messenger.errorMessage('Error', error)}
 
         </>
     )
